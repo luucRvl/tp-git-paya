@@ -1,0 +1,11 @@
+git init: Initialise un nouveau dépôt Git vide dans le répertoire actuel. C'est le point de départ de tout projet versionné.
+git add: Prépare les modifications des fichiers (les ajoute à la zone de staging) pour le prochain commit.
+git commit: Enregistre les changements préparés (`staged`) dans l'historique du projet. Chaque commit a un message descriptif.
+git log: Affiche l'historique complet des commits du dépôt. Utile pour voir qui a fait quoi et quand.
+git show: Montre les détails d'un commit spécifique, y compris les fichiers modifiés et les changements qu'il a introduits.
+git diff: Compare les différences entre deux états du dépôt (commits, branches, fichiers). Très utile pour revoir les modifications.
+git commit --amend: Modifie le message ou les fichiers du *dernier* commit. Permet de corriger une erreur rapidement.
+git reset --hard: Déplace la tête du dépôt vers un commit antérieur, effaçant définitivement l'historique et les changements après ce point.
+git revert: Crée un nouveau commit qui annule les modifications d'un commit précédent, préservant ainsi l'historique.
+git stash: Met de côté temporairement les modifications non validées pour nettoyer l'espace de travail. Utile pour changer de tâche.
+git push --force: Envoie les commits locaux vers un dépôt distant, même si cela écrase l'historique distant. À utiliser avec prudence.
